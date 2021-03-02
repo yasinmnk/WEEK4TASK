@@ -5,7 +5,9 @@ let sonuc= phone.map(item => {
         marka: item.marka,
         model: item.model,
         kamera:item.kamera,
-        bluetooth:item.modelyili,
+        bataryaKap:item.bataryaKap,
+        bluetooth:item.bluetooth,
+        ekranBoy:item.ekranBoy
         
     }    
 }).filter(item => item.marka == "apple").map(item => {
@@ -13,8 +15,13 @@ let sonuc= phone.map(item => {
         marka: item.marka,
         model: item.model,
         kamera:item.kamera,
-        bluetooth:item.modelyili,
+        bataryaKap:item.bataryaKap,
+        bluetooth:item.bluetooth,
+        ekranBoy:item.ekranBoy,
         cekirdek:8,
+        dokunmatik:'hassas',
+        onkamera:'var',
+        konumbul:'1000km'
     }
 });
 
